@@ -1,8 +1,8 @@
 import argparse
 import sys
 
-import util
-from basecommand import BaseCommand
+from snakebox import util
+from snakebox.basecommand import BaseCommand
 
 
 class CommandCat(BaseCommand):

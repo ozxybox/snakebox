@@ -2,7 +2,7 @@ import argparse
 import os
 import shutil
 
-from basecommand import BaseCommand
+from snakebox.basecommand import BaseCommand
 
 
 class CommandMv(BaseCommand):

@@ -1,9 +1,9 @@
 import sys
 
-from cat   import CommandCat
-from ls    import CommandLs
-from mkdir import CommandMkdir
-from mv    import CommandMv
+from snakebox.cat   import CommandCat
+from snakebox.ls    import CommandLs
+from snakebox.mkdir import CommandMkdir
+from snakebox.mv    import CommandMv
 
 g_commands = {}
 
@@ -16,6 +16,3 @@ def main():
     cmd = g_commands[sys.argv[1]]
     cmd.parse_args(sys.argv[2:])
     cmd.run(sys.stdin, sys.stdout, sys.stderr)
-
-if __name__ == '__main__':
-    main()
