@@ -6,8 +6,8 @@ import pathlib
 import sys
 from typing import Union
 
-from snakebox import util
-from snakebox.basecommand import BaseCommand
+from snakecan import util
+from snakecan.basecommand import BaseCommand
 
 
 def sort_entry_name(entry: dict):

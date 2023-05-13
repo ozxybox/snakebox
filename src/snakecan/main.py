@@ -1,9 +1,9 @@
 import sys
 
-from snakebox.cat   import CommandCat
-from snakebox.ls    import CommandLs
-from snakebox.mkdir import CommandMkdir
-from snakebox.mv    import CommandMv
+from snakecan.cat   import CommandCat
+from snakecan.ls    import CommandLs
+from snakecan.mkdir import CommandMkdir
+from snakecan.mv    import CommandMv
 
 g_commands = {}
 

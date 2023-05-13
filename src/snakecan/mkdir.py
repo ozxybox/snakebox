@@ -1,7 +1,7 @@
 import argparse
 import pathlib
 
-from snakebox.basecommand import BaseCommand
+from snakecan.basecommand import BaseCommand
 
 
 class CommandMkdir(BaseCommand):
